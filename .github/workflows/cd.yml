@@ -25,4 +25,4 @@ jobs:
           version: '>= 363.0.0'
         
       - name: Docker build
-        run: gcloud builds submit --tag REGION-docker.pkg.dev/PROJECT_ID/REPOSITORY/IMAGE:TAG .
+        run: gcloud builds submit --tag europe-north2-docker.pkg.dev/bootdev-project-505220/notely-ar-repo/notely . 
